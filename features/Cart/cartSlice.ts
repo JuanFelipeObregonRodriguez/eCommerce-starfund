@@ -27,7 +27,6 @@ export const cartSlice = createSlice({
       state.total = state.items.reduce((acc, item) => acc + item.price, 0);
     },
 
-
     clearCart: (state) => {
       state.items = [];
       state.total = 0;

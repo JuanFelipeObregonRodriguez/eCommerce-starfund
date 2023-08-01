@@ -9,6 +9,7 @@ type ProductContainerProps = {
 
 const ProductsContainer = ({ products }: ProductContainerProps) => {
   return (
+    
     <div className={styles.productsContainer}>
       {products.map((product) => (
         <ProductCard

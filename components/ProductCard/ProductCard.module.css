@@ -1,8 +1,10 @@
 .productCard {
   position: relative;
   padding: 2rem 4rem;
-  background: #fff;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+background: rgba(255,255,255,0.05);
+-webkit-backdrop-filter: blur(38px);
+backdrop-filter: blur(38px);
+border: 1px solid rgba(255,255,255,0.025);
   border-radius: 0.5rem;
   text-align: center;
   display: flex;
@@ -38,7 +40,7 @@
 
 .category {
   font-size: 0.8rem;
-  background: #f3f3f3;
+  background: black;
   padding: 0.5rem;
   font-weight: 300;
 }

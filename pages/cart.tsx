@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAppSelector, useAppDispatch } from "../../app/hooks";
+import { useAppSelector, useAppDispatch } from "../app/hooks";
 import { removeFromCart, clearCart } from "../features/Cart/cartSlice";
 import Image from "next/image";
 import Link from "next/link";
@@ -66,11 +66,12 @@ const Cart = () => {
                   height="0"
                   sizes="100vw"
                   style={{
-                    width: "50%",
                     height: "auto",
                     justifySelf: "center",
+                    background:"transparent"
                   }}
                   alt=""
+                  className=" bg-transparent"
                 />
 
                 <div className={styles.cartItemDetails}>

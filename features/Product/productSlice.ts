@@ -12,14 +12,12 @@ export const productSlice = createSlice({
   name: "product",
   initialState,
   reducers: {
-    // set products
     setProducts: (state, action: PayloadAction<Product[]>) => {
       state.products = [...action.payload];
     },
   },
   extraReducers: {
     [HYDRATE]: (state, action) => {
-      // console.log("HYDRATE", action.payload);
       return {
         ...state,
         ...action.payload.product,

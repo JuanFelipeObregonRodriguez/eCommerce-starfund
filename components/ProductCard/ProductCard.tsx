@@ -28,7 +28,8 @@ const ProductCard = ({
           width="0"
           height="0"
           sizes="100vw"
-          style={{ width: "100%", height: "auto", margin: "auto" }}
+          style={{ width: "100%", margin: "auto"}}
+          className=" bg-transparent"
         />
 
         {/* title */}

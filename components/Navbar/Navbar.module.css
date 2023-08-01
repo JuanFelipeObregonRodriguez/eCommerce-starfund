@@ -1,9 +1,10 @@
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0rem 3rem;
-  background: #fff;
+  background-color: #222;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;

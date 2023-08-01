@@ -27,17 +27,21 @@
 }
 
 .cartList {
-  background-color: #fff;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   border-radius: 0.5rem;
   margin: 1.5rem 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   grid-column: span 7;
 }
 
 .orderInfo {
   padding: 2rem 0;
   grid-column: span 5;
-  background: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   padding: 2.5rem 3rem;
   margin: 1.5rem 0;

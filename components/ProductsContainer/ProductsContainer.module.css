@@ -5,6 +5,20 @@
   align-items: end;
   padding: 0 8rem 4rem 8rem;
   grid-auto-rows: 1fr;
+  background-image: linear-gradient(
+    180deg,
+    hsl(240deg 20% 2%) 0%,
+    hsl(246deg 30% 7%) 10%,
+    hsl(252deg 41% 11%) 23%,
+    hsl(257deg 55% 15%) 41%,
+    hsl(263deg 71% 17%) 60%,
+    hsl(269deg 92% 19%) 74%,
+    hsl(271deg 91% 20%) 84%,
+    hsl(273deg 90% 21%) 91%,
+    hsl(274deg 90% 21%) 95%,
+    hsl(276deg 89% 22%) 98%,
+    hsl(278deg 88% 23%) 100%
+  );
 }
 
 @media screen and (max-width: 1200px) {
