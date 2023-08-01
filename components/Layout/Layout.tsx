@@ -22,7 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
 
         <link
           rel="icon"
-          href="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg"
+          href=""
         />
       </Head>
 
