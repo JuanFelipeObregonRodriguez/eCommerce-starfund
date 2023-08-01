@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAppSelector, useAppDispatch } from "../app/hooks";
+import { useAppSelector, useAppDispatch } from "../../app/hooks";
 import { removeFromCart, clearCart } from "../features/Cart/cartSlice";
 import Image from "next/image";
 import Link from "next/link";

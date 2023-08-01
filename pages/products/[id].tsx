@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { Product } from "../../features/Product/productSlice";
+import { Product } from "../../interfaces";
 import { addToCart } from "../../features/Cart/cartSlice";
 import Image from "next/image";
 import styles from "../../styles/Product.module.css";
@@ -51,7 +51,7 @@ const Product = ({ product }: ProductProps) => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    const item = cartItems.find((item) => item.id === product.id);
+    const item = cartItems.find((item: { id: number; }) => item.id === product.id);
 
     if (item) {
       setIsInCart(true);

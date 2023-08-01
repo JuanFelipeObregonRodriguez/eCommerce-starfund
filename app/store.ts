@@ -1,11 +1,11 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
-import prodcutReducer from "../features/Product/productSlice";
+import productReducer from "../features/Product/productSlice";
 import cartReducer from "../features/Cart/cartSlice";
 import { createWrapper } from "next-redux-wrapper";
 
 const store = configureStore({
   reducer: {
-    product: prodcutReducer,
+    product: productReducer,
     cart: cartReducer,
   },
 });

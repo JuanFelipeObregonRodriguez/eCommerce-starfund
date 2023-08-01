@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProductsContainer.module.css";
 import ProductCard from "../ProductCard/ProductCard";
-import { Product } from "../../features/Product/productSlice";
+import { Product } from "../../interfaces";
 
 type ProductContainerProps = {
   products: Product[];
